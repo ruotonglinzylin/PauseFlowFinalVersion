@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "PauseFlow",
+    "version": "1.0",
+    "description": "A Chrome extension for intentional breaks with calming visuals and music.",
+    "permissions": ["alarms", "storage", "activeTab", "notifications"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "media/psychology.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": ["<all_urls>"],
+    "web_accessible_resources": [
+        {
+          "resources": ["media/*", "media/psychology.png", "855257-uhd_3840_2160_25fps.mp4", "857143-hd_1280_720_24fps.mp4", "2106514-uhd_3840_2160_25fps.mp4", "2516848-uhd_3840_2160_25fps.mp4", "6070867-uhd_3840_2160_30fps.mp4", "7898649-hd_1920_1080_15fps.mp4", "13086683-hd_1920_1080_30fps.mp4", "bird-whistling-in-the-forest-215441.mp3", "calm-and-soft-piano-music-250818.mp3", "calm-zen-river-flowing-228223.mp3", "please-calm-my-mind-125566.mp3", "sea-waves-atmo-6792.mp3"],
+          "matches": ["<all_urls>"]
+        }
+      ]
+  }
+  

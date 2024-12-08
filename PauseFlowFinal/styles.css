@@ -1,0 +1,78 @@
+body {
+    font-family: "scandia-web", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    width: 400px;
+    border:none;
+    opacity: 80%;
+}
+
+#widget {
+    background-color: #edf1f6; 
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    height: 100%;;
+    border: none;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #8894b7;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    color: #8894b7;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    background-color: #bcd7ea;
+}
+
+button {
+    width: 100%;
+    background-color: #bcd7ea;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #bcd7ea70;
+}
+
+button:active {
+    background-color: #bcd7ea;
+}
+
+#mediaContainer {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70%; 
+}

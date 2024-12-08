@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⚙️ PauseFlow Settings ⚙️</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/zep8aax.css">
+</head>
+<body>
+    <div id="widget">
+        <h1>🪷 PauseFlow Settings 🪷</h1>
+        <label>
+            ♨️ I want to take a break of (mins):
+            <input type="number" id="breakDuration" min="1" value="10">
+        </label>
+        <label>
+            💼 after working for (mins):
+            <input type="number" id="workInterval" min="1" value="30">
+        </label>
+        <label>
+            🎬 With this calming video:
+            <select id="videoChoice">
+                <option value="media/13086683-hd_1920_1080_30fps.mp4">Sunset Vibe</option>
+                <option value="media/7898649-hd_1920_1080_15fps.mp4">Dreamy Gradient</option>
+                <option value="media/6070867-uhd_3840_2160_30fps.mp4">Free-flowing White</option>
+                <option value="media/2516848-uhd_3840_2160_25fps.mp4">Rippling Water</option>
+                <option value="media/857143-hd_1280_720_24fps.mp4">Sky Cloud</option>
+            </select>
+        </label>
+        <label>
+            🎵 and this calming music:
+            <select id="musicChoice">
+                <option value="bird-whistling-in-the-forest-215441.mp3">Bird Whistling</option>
+                <option value="calm-and-soft-piano-music-250818.mp3">Calm Soft Piano</option>
+                <option value="calm-zen-river-flowing-228223.mp3">River Flow</option>
+                <option value="please-calm-my-mind-125566.mp3">Calming Mind</option>
+                <option value="sea-waves-atmo-6792.mp3">Sea Waves</option>
+            </select>
+        </label>
+        <button id="startPauseFlow">🌀 Start my Pause Flow 🌀</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
